@@ -73,19 +73,11 @@
                     }
                 ],
                 indexSlide: 0,
-                flgItem_1: true,
-                flgItem_2: false,
-                flgItem_3: false,
-                flgItem_4: false,
 
             };
         },
         methods: {
-            changeSlide(slide){
-                if(slide == 1){
-                    this.flgItem_1 == true
-                }
-            },
+            
         },
     }
 </script>
