@@ -136,6 +136,7 @@
             .left{
                 width: 35%;
                 background: rgba(#000, 0.5);
+                box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
                 .logo{
                     height: 35vh;
                     display: flex;
@@ -199,7 +200,7 @@
                         border: 1px solid #717277;
                         border-radius: 10px;
                         overflow: hidden;
-                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
                         img{
                             width: 100%;
                         }
@@ -262,6 +263,7 @@
                             border-radius: 10px;
                             padding: 20px;
                             width: 100%;
+                            box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
                             >h2{
                                 font-size: 25px;
                                 color: #fff;
