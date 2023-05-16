@@ -1,32 +1,32 @@
 <template>
     <div class="home">
-        <Header />
+        <!-- <Header /> -->
         <Body />
-        <Footer />
-        <Loading :start="load.val" />
-        <Totop />
+        <!-- <Footer /> -->
+        <!-- <Loading :start="load.val" /> -->
+        <!-- <Totop /> -->
     </div>
 </template>
 
 <script>
 // @ is an alias to /src
 
-import Header from "@/components/Header.vue";
+// import Header from "@/components/Header.vue";
 import Body from "@/components/Body.vue";
-import Footer from "@/components/Footer.vue";
+// import Footer from "@/components/Footer.vue";
 import WOW from "wowjs";
-import Loading from "@/components/Loading.vue";
-import Totop from "@/components/Totop.vue";
+// import Loading from "@/components/Loading.vue";
+// import Totop from "@/components/Totop.vue";
 
 
 export default {
     name: "Home",
     components: {
-        Header,
+        // Header,
         Body,
-        Footer,
-        Loading,
-        Totop,
+        // Footer,
+        // Loading,
+        // Totop,
     },
     data() {
         return {
