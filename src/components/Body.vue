@@ -218,6 +218,9 @@
                             gap: 50px;
                             align-items: center;
                             margin-bottom: 20px;
+                            @media (max-width: 768px){
+                                gap: 20px;
+                            }
                             input{
                                 flex: 1;
                                 &.range {
@@ -319,6 +322,16 @@
                     .content_detail{
                         gap: 20px;
                         flex-direction: column;
+                        .avatar{
+                            margin: auto;
+                        }
+                        .detail{
+                            >h2{
+                                text-align: center;
+                                font-size: 38px;
+                            }
+
+                        }
                     }
                 }
             }
