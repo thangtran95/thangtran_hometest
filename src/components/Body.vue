@@ -11,7 +11,6 @@
                 <div class="listEmploy">
                     <ul>
                         <li :class="{ active: indexSlide === index }" :style="{ fontSize: item.popularity + 'px' }" v-for="(item, index) in employees" :key="item.id" @click="indexSlide = index" >{{ item.name}}</li>
-                        
                     </ul>
                 </div>
             </div>
@@ -87,19 +86,7 @@
                     this.flgItem_1 == true
                 }
             },
-            // applyFontSize() {
-            //     const item = this.items[this.indexSlide];
-            //     item.fontSize = this.fontSize;
-            // },
         },
-        // mounted() {
-        //     this.applyFontSize();
-        // },
-        // watch: {
-        //     indexSlide() {
-        //         this.applyFontSize();
-        //     },
-        // },
     }
 </script>
 
