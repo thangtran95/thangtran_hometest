@@ -273,7 +273,7 @@
                                 color: #fff;
                                 font-size: 14px;
                                 font-weight: 300;
-                                line-height: 20px;
+                                line-height: 24px;
                                 margin: 0;
                             }
                         }
